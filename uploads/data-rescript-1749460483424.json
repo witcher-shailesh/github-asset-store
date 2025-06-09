@@ -1,0 +1,18 @@
+{
+    "name": "Nammayatri",
+    "jsx": {
+        "version": 4
+    },
+    "package-specs": {
+        "module": "esmodule",
+        "in-source": true
+    },
+    "bsc-flags": ["-open RescriptCore"],
+    "suffix": ".bs.js",
+    "sources": [
+        {
+            "dir": "./consumer/src",
+            "subdirs": true
+        }
+    ]
+}
